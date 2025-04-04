@@ -1,0 +1,74 @@
+#voting
+name=input("name of a person")
+age=int(input("enter your age"))
+if age>=15:
+           print("congrats",name+"your'e  elgible for vote")
+----------------------
+#elifnumber name
+num=int(input("enter a number:"))
+if num==0:
+ print("zero")
+elif num==1:
+ print("one")
+elif num==2:
+ print("two")
+elif num==3:
+ print("three")
+elif num==4:
+ print("four")
+elif num==5:
+ print("five")
+elif num==6:
+ print("six")
+elif num==7:
+ print("seven")
+elif num==8:
+ print("eight")
+elif num==9:
+ print("nine")
+else:
+ print("pehhhhh")
+---------------------------
+#if--else of given number
+num=int(input("enter a number:"))
+if num>=1 and num<=100:
+    print("the number",num,"is in between 1 and 100")
+else:
+        print("the number ",num,"not in between 1 and 100")
+-----------------------------
+#diviby5
+n=int(input("enter the value of n:"))
+count=0
+num=5
+while count<n:
+    print(num)
+    num+=5
+    count+=1
+----------------------------
+#sum of list elements
+mylist=input("enter a list of numbers")
+mylist=list(map(int,mylist.split()))
+sum=0
+for num in mylist:
+    sum+=num
+    print("the sum of the numbers",sum)
+-------------------------
+#numbers from 1 to 100
+for i in range(1,11):
+ if i==5:
+    continue
+if i==8:
+  break
+print(i)
+----------------------
+#even numbers between 0 to20
+num=0
+while num<=20:
+ if num%2==0:
+    print(num)
+    num+=1
+
+
+
+
+
